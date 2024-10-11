@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Appoinment</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>84667bc6-bf97-4cec-94e0-21b886d4ebf3</testSuiteGuid>
+   <testCaseLink>
+      <guid>f6719d60-2793-43a6-acdc-d9b3df0048a9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Make Appoinment/Test case negative</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>884ba3d8-f331-444e-8d26-8113fbe2679b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make Appoinment/Test case positif</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6a109826-ad60-4d74-b6bd-ec458dbdbea6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/New Test Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>6a109826-ad60-4d74-b6bd-ec458dbdbea6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>8e19987a-402f-491f-9443-c3377d2b2598</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6a109826-ad60-4d74-b6bd-ec458dbdbea6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>46b4e0f1-d29c-4d2c-9b82-74940d6e72ba</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6a109826-ad60-4d74-b6bd-ec458dbdbea6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Visit_Date</value>
+         <variableId>f23b02dc-88f7-4110-90c6-fd3b8f938606</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6a109826-ad60-4d74-b6bd-ec458dbdbea6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>comment</value>
+         <variableId>cb6d467a-5aaa-4c48-a90f-69a633bffa14</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bab17598-f787-4f47-a019-101e94fb93c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Make Appoinment/Test case positive negative</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ceb1a956-3264-49fa-b8cb-c1d1714d0887</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/New Test Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>
